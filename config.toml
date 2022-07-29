@@ -1,0 +1,21 @@
+baseURL = "http://jackz.se/"
+languageCode = "se-sv"
+title = "Frisör Vasastan"
+theme = "jackz-theme"
+
+[menu]
+  [[menu.main]]
+    name = "Startsidan"
+    pre = "home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Prislista"
+    pre = "dollar-sign"
+    url = "/prislista"
+    weight = 2
+  [[menu.main]]
+    name = "Kontakt &amp; Bokning"
+    pre = "tag"
+    url = "/kontakt-bokning/"
+    weight = 6
